@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- card container -->
+    <div class="grid grid-cols-3 m-10">
+        <!-- triangle card -->
+        <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="images/triangle.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center">Triangle</h2>
+              <p class="text-center">Area (A) = 0.5 X b X h</p>
+              <div class="text-center">
+                <input type="text" name="" id="" class="w-24 rounded-md pl-3" placeholder="b"><span class="mr-3">cm</span>
+                <input type="text" name="" id="" class="w-24 rounded-md pl-3" placeholder="h"><span class="mr-3">cm</span>
+              </div>
+              <p>Area : <span>0</span><span>cm<sup>2</sup></span></p>
+              <div class="card-actions ">
+                <button class="btn btn-primary w-full">Calculate</button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script src="scripts/calculate.js"></script>
+</body>
+</html>
